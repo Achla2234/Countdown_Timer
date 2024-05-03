@@ -5,8 +5,11 @@
   body {
     margin: 0rem auto 4rem auto;
     text-align: center;
-    background:url("C:\Users\HP\Desktop\count\Countdown_Timer\back.jpg")
+    background:url("https://images6.alphacoders.com/686/686872.jpg");
+    background-size: cover;
+    z-index:2;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
 }
 
 h1 {
@@ -52,8 +55,9 @@ input {
 }
 
 .heading {
-    color: #F5F5F5;
-    font-size: 18px;
+    color: rgb(72, 149, 237);
+    font-size: 23px;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -67,22 +71,17 @@ input {
     border-radius: 0.5rem;
 }
 
-.title {
-    padding: 2rem 1rem;
-    margin-top: 0rem ;
-    background-color:  #283B3E;
-    
-    font-size: 3rem;
-    color: rgba((45, 154, 227, 0.6)0.6);
-}
 
 .full body {
     padding: 1rem 1rem;
     margin: 0.5rem ;
-    background-color:  rgba(246, 242, 242, 0.274);
     border-radius: 0.5rem;
     font-size: 2rem;
-    color: rgba((45, 154, 227, 0.6)0.6);
+    background-color: black;
+    position: absolute;
+    opacity: 1;
+    z-index: -2;
+    
 }
 
 .all {
@@ -153,9 +152,9 @@ input {
 
     <body>
     <div class="full body">
-        <div class="title">
-          <p>COUNTDOWN TIMER</p>
-        </div>
+        
+          <h1>COUNTDOWN TIMER</h1>
+
         <table>
             <thead>
                 <tr>
